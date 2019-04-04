@@ -5,8 +5,7 @@
 
 
 SIGAD1 Sample
-################
-
+---------------
 
 .. image:: dsummary.html  
   :width: 400
@@ -17,8 +16,7 @@ SIGAD1 Sample
 
 
 SIGAE1 Sample 
-################
-
+----------------
 
 .. image:: esummary.html 
    :width: 400 
@@ -29,7 +27,7 @@ SIGAE1 Sample
 
 
 SIGAF1 Sample
-###############
+-----------------
 
 .. image:: fsummary.html
    :width: 400 
@@ -40,8 +38,7 @@ SIGAF1 Sample
 
 
 SIGAG1 Sample
-###############
-
+----------------
 
 .. image:: gsummary.html 
    :width: 400 

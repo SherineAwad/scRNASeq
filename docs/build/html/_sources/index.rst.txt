@@ -11,10 +11,4 @@ Welcome to scRNASeq's documentation!
    :caption: Contents:
  
    plots.rst   
-   
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   clusters.rst   

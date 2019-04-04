@@ -5,9 +5,10 @@
 
 
 SIGAD1 Sample
----------------
+################
 
-.. image:: dsummary.html  
+
+.. image:: dloupe.png  
   :width: 400
 
 .. raw:: html
@@ -16,9 +17,10 @@ SIGAD1 Sample
 
 
 SIGAE1 Sample 
-----------------
+################
 
-.. image:: esummary.html 
+
+.. image:: eloupe.png 
    :width: 400 
 
 .. raw:: html 
@@ -27,9 +29,9 @@ SIGAE1 Sample
 
 
 SIGAF1 Sample
------------------
+###############
 
-.. image:: fsummary.html
+.. image:: floupe.png
    :width: 400 
 
 .. raw:: html 
@@ -38,9 +40,10 @@ SIGAF1 Sample
 
 
 SIGAG1 Sample
-----------------
+###############
 
-.. image:: gsummary.html 
+
+.. image:: gloupe.png 
    :width: 400 
 
 .. raw:: html 
