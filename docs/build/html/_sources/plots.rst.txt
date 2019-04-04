@@ -1,11 +1,10 @@
-
 ====================================================
-**Supporting Plots**
+**Clustering and Supporting Plots**
 ====================================================
 
-
+===============
 SIGAD1 Sample
----------------
+================
 
 .. image:: dsummary.html  
   :width: 400
@@ -15,8 +14,9 @@ SIGAD1 Sample
    <br />
 
 
+================
 SIGAE1 Sample 
-----------------
+================
 
 .. image:: esummary.html 
    :width: 400 
@@ -25,9 +25,9 @@ SIGAE1 Sample
     
    <br /> 
 
-
+================
 SIGAF1 Sample
------------------
+================
 
 .. image:: fsummary.html
    :width: 400 
@@ -36,11 +36,56 @@ SIGAF1 Sample
 
    <br  /> 
 
-
+================
 SIGAG1 Sample
-----------------
+================
 
 .. image:: gsummary.html 
+   :width: 400 
+
+.. raw:: html 
+
+   <br /> 
+
+
+========================
+SIGAD1 Sample Clusters
+=========================
+
+.. image:: dloupe.png  
+  :width: 400
+
+.. raw:: html
+
+   <br />
+
+=========================
+SIGAE1 Sample Clusters
+==========================
+
+.. image:: eloupe.png 
+   :width: 400 
+
+.. raw:: html 
+    
+   <br /> 
+
+=========================
+SIGAF1 Sample Clusters
+=========================
+
+.. image:: floupe.png
+   :width: 400 
+
+.. raw:: html 
+
+   <br  /> 
+
+=========================
+SIGAG1 Sample Clusters
+=========================
+
+.. image:: gloupe.png 
    :width: 400 
 
 .. raw:: html 

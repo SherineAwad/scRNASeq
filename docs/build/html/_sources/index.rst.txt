@@ -11,4 +11,3 @@ Welcome to scRNASeq's documentation!
    :caption: Contents:
  
    plots.rst   
-   clusters.rst   
