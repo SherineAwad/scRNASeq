@@ -1,0 +1,53 @@
+
+====================================================
+**Supporting Plots**
+====================================================
+
+
+SIGAD1 Sample
+################
+
+
+.. image:: dsummary.html  
+  :width: 400
+
+.. raw:: html
+
+   <br />
+
+
+SIGAE1 Sample 
+################
+
+
+.. image:: esummary.html 
+   :width: 400 
+
+.. raw:: html 
+    
+   <br /> 
+
+
+SIGAF1 Sample
+###############
+
+.. image:: fsummary.html
+   :width: 400 
+
+.. raw:: html 
+
+   <br  /> 
+
+
+SIGAG1 Sample
+###############
+
+
+.. image:: gsummary.html 
+   :width: 400 
+
+.. raw:: html 
+
+   <br /> 
+
+
