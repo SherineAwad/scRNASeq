@@ -10,4 +10,5 @@ Welcome to scRNASeq's documentation!
    :maxdepth: 2
    :caption: Contents:
  
-   plots.rst   
+   plots.rst 
+   pipe2.rst   
