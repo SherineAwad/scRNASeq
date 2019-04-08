@@ -5,7 +5,8 @@
 Cell Ranger Summary and Clustering
 ----------------------------------------
 .. image:: dsummary.html  
-     :width: 400
+  :width: 400
+  :alt: D summary 
 
 .. raw:: html
 
@@ -32,18 +33,19 @@ UMI Tools Clustering and Plots
 ----------------------------------
 
 .. figure:: Dplot_cell_barcode_counts.png  
-  :width: 400
+  :width: 400px
   :align: center 
-  :height: 100px
+  :height: 400px
+  :alt: Cell Barcode Counts
 
   Cell Barcode Counts
 
 
-.. figure:: d.before.hist.pdf
-    :width: 200px
+.. figure:: d.before.hist.png
+    :width: 400px
     :align: center
-    :height: 100px
-    :alt: alternate text
+    :height: 400px
+    :alt: Before Normalization
     :figclass: align-center
 
     Before Normalization 
@@ -51,13 +53,28 @@ UMI Tools Clustering and Plots
 
 
 
-.. figure:: d.after.hist.pdf
-    :width: 200px
+.. figure:: d.after.hist.png
+    :width: 400px
     :align: center
-    :height: 100px
-    :alt: alternate text
+    :height: 400px
+    :alt: After Normalization 
     :figclass: align-center
 
     After Normalization 
 
 
+.. figure:: d.dispersion.png 
+    :width: 400px
+    :align: center
+    :height: 400px
+    :alt: Dispersion 
+    :figclass: align-center
+
+    Dispersion
+
+
+.. figure:: d.tsne.cluster.png
+   :width: 400px 
+   :align: center 
+   :height: 400px 
+   :alt: TSNE Clustering 
