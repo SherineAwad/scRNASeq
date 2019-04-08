@@ -3,9 +3,9 @@
 =============================
 
 .. figure:: Eplot_cell_barcode_counts.png  
-  :width: 400px
+  :width: 800px
   :align: center 
-  :height: 800px
+  :height: 400px
   :alt: Cell Barcode Counts
 
   Cell Barcode Counts
@@ -43,9 +43,9 @@
     Dispersion
 
 .. figure:: e.pca.png 
-   :width: 400px 
+   :width: 800px 
    :align: center 
-   :height: 800px 
+   :height: 400px 
    :alt: PCA for sample E
    :figclass: align-center
   

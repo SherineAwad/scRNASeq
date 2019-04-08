@@ -3,9 +3,9 @@
 =============================
 
 .. figure:: Fplot_cell_barcode_counts.png  
-  :width: 400px
+  :width: 800px
   :align: center 
-  :height: 800px
+  :height: 400px
   :alt: Cell Barcode Counts
 
   Cell Barcode Counts
@@ -43,18 +43,18 @@
     Dispersion
 
 .. figure:: f.pca.png 
-   :width: 400px 
+   :width: 800px 
    :align: center 
-   :height: 800px 
+   :height: 400px 
    :alt: PCA for sample F
    :figclass: align-center
   
    PCA for sample F
 
 .. figure:: f.tsne.cluster.png
-   :width: 400px 
+   :width: 600px 
    :align: center 
-   :height: 800px 
+   :height: 600px 
    :alt: TSNE Clustering
    :figclass: align-center
 
