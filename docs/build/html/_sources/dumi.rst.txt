@@ -34,7 +34,7 @@
 
 
 .. figure:: d.dispersion.png 
-    :width: 800px
+    :width: 600px
     :align: center
     :height: 400px
     :alt: Dispersion 
