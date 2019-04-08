@@ -12,8 +12,10 @@
 
 
 
-.. image:: dloupe.png  
+.. figure:: dloupe.png  
      :width: 400
      :height: 400px
      :alt: Cell Ranger Clusters for D  
+     
 
+     Cell Ranger Clusters of Sample D
