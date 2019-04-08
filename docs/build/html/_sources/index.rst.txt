@@ -11,4 +11,7 @@ Welcome to scRNASeq's documentation!
    :caption: Contents:
 
    dcellranger.rst  
-   dumi.rst 
+   dumi.rst
+   ecellranger.rst 
+   eumi.rst 
+ 
