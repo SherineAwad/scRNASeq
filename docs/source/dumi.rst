@@ -12,9 +12,9 @@
 
 
 .. figure:: d.before.hist.png
-    :width: 400px
+    :width: 500px
     :align: center
-    :height: 400px
+    :height: 500px
     :alt: Before Normalization
     :figclass: align-center
 
@@ -34,7 +34,7 @@
 
 
 .. figure:: d.dispersion.png 
-    :width: 400px
+    :width: 800px
     :align: center
     :height: 400px
     :alt: Dispersion 
