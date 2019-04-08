@@ -16,7 +16,7 @@
     <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="CellRanger: Clustering and Supporting Plots" href="plots.html" />
+    <link rel="next" title="Sample SIGAD1 Plots" href="dplots.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -38,28 +38,11 @@
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="plots.html"><strong>CellRanger: Clustering and Supporting Plots</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigad1-sample">SIGAD1 Sample</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigae1-sample">SIGAE1 Sample</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigaf1-sample">SIGAF1 Sample</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigag1-sample">SIGAG1 Sample</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigad1-sample-clusters">SIGAD1 Sample Clusters</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigae1-sample-clusters">SIGAE1 Sample Clusters</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigaf1-sample-clusters">SIGAF1 Sample Clusters</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigag1-sample-clusters">SIGAG1 Sample Clusters</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html"><strong>Pipeline Two: Plots</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigad1-barcode-density">SIGAD1 Barcode Density</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigae1-barcode-density">SIGAE1 Barcode Density</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigaf1-barcode-density">SIGAF1 Barcode Density</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigag1-barcode-density">SIGAG1 Barcode Density</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigad1-sample-barcode-counts">SIGAD1 Sample Barcode Counts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigae1-sample-barcode-counts">SIGAE1 Sample Barcode Counts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigaf1-sample-barcode-counts">SIGAF1 Sample Barcode Counts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigag1-sample-barcode-counts">SIGAG1 Sample Barcode Counts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigad1-sample-barcode-knee">SIGAD1 Sample Barcode Knee</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigae1-sample-barcode-knee">SIGAE1 Sample Barcode Knee</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigaf1-sample-barcode-knee">SIGAF1 Sample Barcode Knee</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigag1-sample-barcode-knee">SIGAG1 Sample Barcode Knee</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dplots.html"><strong>Sample SIGAD1 Plots</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dplots.html#cell-ranger-summary-and-clustering">Cell Ranger Summary and Clustering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dplots.html#umi-tools-clustering-and-plots">UMI Tools Clustering and Plots</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -83,35 +66,14 @@
 <h3>Navigation</h3>
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="plots.html"><strong>CellRanger: Clustering and Supporting Plots</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigad1-sample">SIGAD1 Sample</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigae1-sample">SIGAE1 Sample</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigaf1-sample">SIGAF1 Sample</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigag1-sample">SIGAG1 Sample</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigad1-sample-clusters">SIGAD1 Sample Clusters</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigae1-sample-clusters">SIGAE1 Sample Clusters</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigaf1-sample-clusters">SIGAF1 Sample Clusters</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plots.html#sigag1-sample-clusters">SIGAG1 Sample Clusters</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html"><strong>Pipeline Two: Plots</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigad1-barcode-density">SIGAD1 Barcode Density</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigae1-barcode-density">SIGAE1 Barcode Density</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigaf1-barcode-density">SIGAF1 Barcode Density</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigag1-barcode-density">SIGAG1 Barcode Density</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigad1-sample-barcode-counts">SIGAD1 Sample Barcode Counts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigae1-sample-barcode-counts">SIGAE1 Sample Barcode Counts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigaf1-sample-barcode-counts">SIGAF1 Sample Barcode Counts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigag1-sample-barcode-counts">SIGAG1 Sample Barcode Counts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigad1-sample-barcode-knee">SIGAD1 Sample Barcode Knee</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigae1-sample-barcode-knee">SIGAE1 Sample Barcode Knee</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigaf1-sample-barcode-knee">SIGAF1 Sample Barcode Knee</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pipe2.html#sigag1-sample-barcode-knee">SIGAG1 Sample Barcode Knee</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dplots.html"><strong>Sample SIGAD1 Plots</strong></a></li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="#">Documentation overview</a><ul>
-      <li>Next: <a href="plots.html" title="next chapter"><strong>CellRanger: Clustering and Supporting Plots</strong></a></li>
+      <li>Next: <a href="dplots.html" title="next chapter"><strong>Sample SIGAD1 Plots</strong></a></li>
   </ul></li>
 </ul>
 </div>
