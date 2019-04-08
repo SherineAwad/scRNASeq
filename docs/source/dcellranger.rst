@@ -5,26 +5,21 @@
 
 
 
-.. image:: dsummary.html  
+.. figure:: dsummary.html  
   :width: 400
-  :alt: D summary 
+  :alt: Click here to view cell ranger summary for Sample D 
+  :height: 400px
+  :alt: Cell Ranger Summary for Sample D 
+  :figclass: align-center
 
-.. raw:: html
-
-   <br />
-
-.. raw:: html 
-
-   <br /> 
+        Cell Ranger Summary for Sample D
 
 
-.. image:: dloupe.png  
+
+.. figure:: dloupe.png  
      :width: 400
-     :alt: D clusters from cloup 
-.. raw:: html
+     :alt: D clusters from cloup
+     :height: 400px
+     :alt: Cell Ranger Clusters for D  
+     :figclass: align-center
 
-   <br />
-
-.. raw:: html 
-
-   <br />

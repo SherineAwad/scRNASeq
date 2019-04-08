@@ -42,9 +42,64 @@
 
     Dispersion
 
+.. figure:: d.pca.png 
+   :width: 400px 
+   :align: center 
+   :height: 400px 
+   :alt: PCA for sample D
+   :figclass: align-center
+  
 
 .. figure:: d.tsne.cluster.png
    :width: 400px 
    :align: center 
    :height: 400px 
-   :alt: TSNE Clustering 
+   :alt: TSNE Clustering
+   :figclass: align-center
+
+
+
+.. figure:: d.heatmap1.png 
+   :width: 400px
+   :align: center 
+   :height: 400px 
+   :alt: Heatmap of Sample D 
+   :figclass: align-center
+
+.. figure:: d.heatmap2.png 
+   :width: 400px
+   :align: center 
+   :height: 400px 
+   :alt: Heatmaps of PCAs of Sample D 
+   :figclass: align-center
+
+.. figure:: d.vnplot.pca.png  
+   :width: 400px
+   :align: center
+   :height: 400px
+   :alt: VNPlot for top PCA genes 
+   :figclass: align-center
+
+.. figure:: d.featureplot.pca.png
+   :width: 400px 
+   :align: center 
+   :height: 400px 
+   :alt: Feature Plot for top PCA genes 
+   :figclass: align-center
+
+.. figure:: d.vnplot.marker.png 
+   :width: 400px 
+   :align: center 
+   :height: 400px 
+   :alt: VNpLOT for top Marker genes 
+   :figclass: align-center
+
+.. figure:: d.featureplot.marker.png
+   :width: 400px 
+   :align: center 
+   :height: 400px
+   :alt: Feature Plot for top Marker genes
+   :figclass: align-center
+
+
+   
