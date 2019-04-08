@@ -14,4 +14,7 @@ Welcome to scRNASeq's documentation!
    dumi.rst
    ecellranger.rst 
    eumi.rst 
+   fcellranger.rst
+   fumi.rst
+  
  
