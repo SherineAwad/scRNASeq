@@ -3,18 +3,18 @@
 =============================
 
 .. figure:: Dplot_cell_barcode_counts.png  
-  :width: 600px
+  :width: 400px
   :align: center 
-  :height: 600px
+  :height: 800px
   :alt: Cell Barcode Counts
 
   Cell Barcode Counts
 
 
 .. figure:: d.before.hist.png
-    :width: 600px
+    :width: 400px
     :align: center
-    :height: 600px
+    :height: 400px
     :alt: Before Normalization
     :figclass: align-center
 
@@ -24,7 +24,7 @@
 
 
 .. figure:: d.after.hist.png
-    :width: 600px
+    :width: 400px
     :align: center
     :height: 400px
     :alt: After Normalization 
@@ -34,18 +34,18 @@
 
 
 .. figure:: d.dispersion.png 
-    :width: 600px
+    :width: 400px
     :align: center
-    :height: 600px
+    :height: 400px
     :alt: Dispersion 
     :figclass: align-center
 
     Dispersion
 
 .. figure:: d.pca.png 
-   :width: 600px 
+   :width: 400px 
    :align: center 
-   :height: 600px 
+   :height: 800px 
    :alt: PCA for sample D
    :figclass: align-center
   

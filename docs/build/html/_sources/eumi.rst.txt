@@ -3,18 +3,18 @@
 =============================
 
 .. figure:: Eplot_cell_barcode_counts.png  
-  :width: 600px
+  :width: 400px
   :align: center 
-  :height: 600px
+  :height: 800px
   :alt: Cell Barcode Counts
 
   Cell Barcode Counts
 
 
 .. figure:: e.before.hist.png
-    :width: 600px
+    :width: 400px
     :align: center
-    :height: 600px
+    :height: 400px
     :alt: Before Normalization
     :figclass: align-center
 
@@ -24,9 +24,9 @@
 
 
 .. figure:: e.after.hist.png
-    :width: 600px
+    :width: 400px
     :align: center
-    :height: 600px
+    :height: 400px
     :alt: After Normalization 
     :figclass: align-center
 
@@ -34,18 +34,18 @@
 
 
 .. figure:: e.dispersion.png 
-    :width: 600px
+    :width: 400px
     :align: center
-    :height: 600px
+    :height: 400px
     :alt: Dispersion 
     :figclass: align-center
 
     Dispersion
 
 .. figure:: e.pca.png 
-   :width: 600px 
+   :width: 400px 
    :align: center 
-   :height: 600px 
+   :height: 800px 
    :alt: PCA for sample E
    :figclass: align-center
   

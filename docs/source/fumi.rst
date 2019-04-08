@@ -3,18 +3,18 @@
 =============================
 
 .. figure:: Fplot_cell_barcode_counts.png  
-  :width: 600px
+  :width: 400px
   :align: center 
-  :height: 600px
+  :height: 800px
   :alt: Cell Barcode Counts
 
   Cell Barcode Counts
 
 
 .. figure:: f.before.hist.png
-    :width: 600px
+    :width: 400px
     :align: center
-    :height: 600px
+    :height: 400px
     :alt: Before Normalization
     :figclass: align-center
 
@@ -24,9 +24,9 @@
 
 
 .. figure:: f.after.hist.png
-    :width: 600px
+    :width: 400px
     :align: center
-    :height: 600px
+    :height: 400px
     :alt: After Normalization 
     :figclass: align-center
 
@@ -34,27 +34,27 @@
 
 
 .. figure:: f.dispersion.png 
-    :width: 600px
+    :width: 400px
     :align: center
-    :height: 600px
+    :height: 400px
     :alt: Dispersion 
     :figclass: align-center
 
     Dispersion
 
 .. figure:: f.pca.png 
-   :width: 600px 
+   :width: 400px 
    :align: center 
-   :height: 600px 
+   :height: 800px 
    :alt: PCA for sample F
    :figclass: align-center
   
    PCA for sample F
 
 .. figure:: f.tsne.cluster.png
-   :width: 600px 
+   :width: 400px 
    :align: center 
-   :height: 600px 
+   :height: 800px 
    :alt: TSNE Clustering
    :figclass: align-center
 
