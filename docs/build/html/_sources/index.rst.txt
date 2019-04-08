@@ -9,5 +9,6 @@ Welcome to scRNASeq's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
- 
-   dplots.rst 
+
+   dcellranger.rst  
+   dumi.rst 
