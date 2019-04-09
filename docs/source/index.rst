@@ -16,5 +16,6 @@ Welcome to scRNASeq's documentation!
    eumi.rst 
    fcellranger.rst
    fumi.rst
-  
+   gcellranger.rst
+   gumi.rst 
  
