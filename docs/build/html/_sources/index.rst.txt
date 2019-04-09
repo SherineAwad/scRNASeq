@@ -20,4 +20,4 @@ Welcome to scRNASeq's documentation!
    gumi.rst 
    d2umi.rst
    e2umi.rst
- 
+   f2umi.rst 
