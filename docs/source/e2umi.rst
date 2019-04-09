@@ -1,5 +1,5 @@
 =========================================================================================================================
-**Sample SIGAE1: UMI Plots - Cells with genes <100 are filtered**
+**Sample SIGAE1: UMI/Seurat Plots - Cells with genes <100 are filtered**
 =========================================================================================================================
 
 .. figure:: Eplot_cell_barcode_counts.png  

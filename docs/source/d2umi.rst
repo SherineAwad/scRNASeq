@@ -1,5 +1,5 @@
 =========================================================================================================================
-**Sample SIGAD1: UMI Plots - Cells with genes <100 are filtered**
+**Sample SIGAD1: UMI/Seurat Plots - Cells with genes <100 are filtered**
 =========================================================================================================================
 
 .. figure:: Dplot_cell_barcode_counts.png  
