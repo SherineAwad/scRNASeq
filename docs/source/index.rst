@@ -18,4 +18,6 @@ Welcome to scRNASeq's documentation!
    eumi.rst 
    fumi.rst
    gumi.rst 
-   d2umi.rst 
+   d2umi.rst
+   e2umi.rst
+ 
