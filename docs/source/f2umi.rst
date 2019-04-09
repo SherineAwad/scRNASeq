@@ -34,9 +34,9 @@
 
 
 .. figure:: f2.dispersion.png 
-    :width: 200px
+    :width: 400px
     :align: center
-    :height: 200px
+    :height: 400px
     :alt: Dispersion 
     :figclass: align-center
 
