@@ -24,9 +24,9 @@
 
 
 .. figure:: g.after.hist.png
-    :width: 400px
+    :width: 500px
     :align: center
-    :height: 400px
+    :height: 500px
     :alt: After Normalization 
     :figclass: align-center
 
@@ -34,16 +34,16 @@
 
 
 .. figure:: g.dispersion.png 
-    :width: 600px
+    :width: 500px
     :align: center
-    :height: 400px
+    :height: 300px
     :alt: Dispersion 
     :figclass: align-center
 
     Dispersion
 
 .. figure:: g.pca.png 
-   :width: 800px 
+   :width: 600px 
    :align: center 
    :height: 400px 
    :alt: PCA for sample G
