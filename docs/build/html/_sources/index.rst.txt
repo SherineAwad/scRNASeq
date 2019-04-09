@@ -11,11 +11,11 @@ Welcome to scRNASeq's documentation!
    :caption: Contents:
 
    dcellranger.rst  
-   dumi.rst
-   ecellranger.rst 
-   eumi.rst 
+   ecellranger.rst
    fcellranger.rst
-   fumi.rst
    gcellranger.rst
+   dumi.rst
+   eumi.rst 
+   fumi.rst
    gumi.rst 
  
