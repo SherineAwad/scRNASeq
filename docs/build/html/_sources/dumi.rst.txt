@@ -1,5 +1,5 @@
 =========================================================================================================================
-**Sample SIGAD1: UMI Plots - Cells with less than 200 genes or greater than 2500 genes are filtered out**
+**Sample SIGAD1: UMI Plots - Cells with >200 genes or >2500 genes are filtered out**
 =========================================================================================================================
 
 .. figure:: Dplot_cell_barcode_counts.png  
