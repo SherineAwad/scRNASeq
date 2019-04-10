@@ -1,5 +1,5 @@
 ================================================================================================================
-**Sample SIGAF1: UMI/Seurat Plots -  Cells with genes <200 or >2500 are filtered** 
+**F: UMI/Seurat Plots -  Cells with genes <200 or >2500 are filtered** 
 ================================================================================================================
 
 .. figure:: Fplot_cell_barcode_counts.png  

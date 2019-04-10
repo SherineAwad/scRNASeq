@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Sample SIGAG1: Cell Ranger Plots &#8212; scRNASeq  documentation</title>
+    <title>G: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered &#8212; scRNASeq  documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -16,8 +16,8 @@
     <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Sample SIGAG1: UMI Plots" href="gumi.html" />
-    <link rel="prev" title="Sample SIGAF1: UMI Plots" href="fumi.html" />
+    <link rel="next" title="D: UMI/Seurat Plots - Cells with genes &lt;100 are filtered" href="d2umi.html" />
+    <link rel="prev" title="F: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered" href="fcellranger.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -34,12 +34,56 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="sample-sigag1-cell-ranger-plots">
-<h1><strong>Sample SIGAG1: Cell Ranger Plots</strong><a class="headerlink" href="#sample-sigag1-cell-ranger-plots" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="g-cell-ranger-seurat-cells-with-genes-100-are-filtered">
+<h1><strong>G: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong><a class="headerlink" href="#g-cell-ranger-seurat-cells-with-genes-100-are-filtered" title="Permalink to this headline">¶</a></h1>
 <a class="reference internal image-reference" href="_images/gsummary.html"><img alt="Click here to view cell ranger summary for Sample G" src="_images/gsummary.html" style="width: 400px;" /></a>
 <div class="figure" id="id1">
 <a class="reference internal image-reference" href="_images/gloupe.png"><img alt="Cell Ranger Clusters for G" src="_images/gloupe.png" style="width: 400px; height: 400px;" /></a>
 <p class="caption"><span class="caption-text">Cell Ranger Clusters of Sample G</span></p>
+</div>
+<div class="align-center figure" id="id2">
+<a class="reference internal image-reference" href="_images/gCR.before.hist.png"><img alt="Before Normalization" src="_images/gCR.before.hist.png" style="width: 500px; height: 500px;" /></a>
+<p class="caption"><span class="caption-text">Before Normalization</span></p>
+</div>
+<div class="align-center figure" id="id3">
+<a class="reference internal image-reference" href="_images/gCR.after.hist.png"><img alt="After Normalization" src="_images/gCR.after.hist.png" style="width: 500px; height: 500px;" /></a>
+<p class="caption"><span class="caption-text">After Normalization</span></p>
+</div>
+<div class="align-center figure" id="id4">
+<a class="reference internal image-reference" href="_images/gCR.dispersion.png"><img alt="Dispersion" src="_images/gCR.dispersion.png" style="width: 400px; height: 400px;" /></a>
+<p class="caption"><span class="caption-text">Dispersion</span></p>
+</div>
+<div class="align-center figure" id="id5">
+<a class="reference internal image-reference" href="_images/gCR.pca.png"><img alt="PCA for sample G" src="_images/gCR.pca.png" style="width: 600px; height: 400px;" /></a>
+<p class="caption"><span class="caption-text">PCA for sample G</span></p>
+</div>
+<div class="align-center figure" id="id6">
+<a class="reference internal image-reference" href="_images/gCR.tsne.cluster.png"><img alt="TSNE Clustering" src="_images/gCR.tsne.cluster.png" style="width: 600px; height: 600px;" /></a>
+<p class="caption"><span class="caption-text">TSNE Clustering</span></p>
+</div>
+<div class="align-center figure" id="id7">
+<a class="reference internal image-reference" href="_images/gCR.heatmap1.png"><img alt="Heatmap of Sample G" src="_images/gCR.heatmap1.png" style="width: 600px; height: 600px;" /></a>
+<p class="caption"><span class="caption-text">Heatmap of sample G</span></p>
+</div>
+<div class="align-center figure" id="id8">
+<a class="reference internal image-reference" href="_images/gCR.heatmap2.png"><img alt="Heatmaps of PCAs of Sample G" src="_images/gCR.heatmap2.png" style="width: 600px; height: 600px;" /></a>
+<p class="caption"><span class="caption-text">Heatmaps of PCAs of sample G</span></p>
+</div>
+<div class="align-center figure" id="id9">
+<a class="reference internal image-reference" href="_images/gCR.vnplot.pca.png"><img alt="VNPlot for top PCA genes" src="_images/gCR.vnplot.pca.png" style="width: 600px; height: 600px;" /></a>
+<p class="caption"><span class="caption-text">VNPlot for top PCA genes</span></p>
+</div>
+<div class="align-center figure" id="id10">
+<a class="reference internal image-reference" href="_images/gCR.featureplot.pca.png"><img alt="Feature Plot for top PCA genes" src="_images/gCR.featureplot.pca.png" style="width: 600px; height: 600px;" /></a>
+<p class="caption"><span class="caption-text">Feature Plot for top PCA genes</span></p>
+</div>
+<div class="align-center figure" id="id11">
+<a class="reference internal image-reference" href="_images/gCR.vnplot.marker.png"><img alt="VNPlot for top Marker genes" src="_images/gCR.vnplot.marker.png" style="width: 600px; height: 600px;" /></a>
+<p class="caption"><span class="caption-text">VNPlot for top Marker genes</span></p>
+</div>
+<div class="align-center figure" id="id12">
+<a class="reference internal image-reference" href="_images/gCR.featureplot.marker.png"><img alt="Feature Plot for top Marker genes" src="_images/gCR.featureplot.marker.png" style="width: 600px; height: 600px;" /></a>
+<p class="caption"><span class="caption-text">Feature Plot for top Marker genes</span></p>
 </div>
 </div>
 
@@ -62,22 +106,26 @@
 <h3>Navigation</h3>
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="dcellranger.html"><strong>Sample SIGAD1: Cell Ranger Plots</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="dumi.html"><strong>Sample SIGAD1: UMI Plots</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="ecellranger.html"><strong>Sample SIGAE1: Cell Ranger Plots</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="eumi.html"><strong>Sample SIGAE1: UMI Plots</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="fcellranger.html"><strong>Sample SIGAF1: Cell Ranger Plots</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="fumi.html"><strong>Sample SIGAF1: UMI Plots</strong></a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>Sample SIGAG1: Cell Ranger Plots</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="gumi.html"><strong>Sample SIGAG1: UMI Plots</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="dcellranger.html"><strong>D: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="ecellranger.html"><strong>E: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="fcellranger.html"><strong>F: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>G: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="d2umi.html"><strong>D: UMI/Seurat Plots - Cells with genes &lt;100 are filtered</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="e2umi.html"><strong>E: UMI/Seurat Plots - Cells with genes &lt;100 are filtered</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="f2umi.html"><strong>F: UMI/Seurat Plots -  Cells with genes &lt;100 are filtered</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="g2umi.html"><strong>G: UMI/Seurat Plots - Cells with genes &lt;100 are filtered</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="dumi.html"><strong>D: UMI/Seurat Plots - Cells with genes &lt;200 or &gt;2500 are filtered</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="eumi.html"><strong>E: UMI/Seurat Plots - Cells with genes &lt;200 or &gt;2500 are filtered</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="fumi.html"><strong>F: UMI/Seurat Plots -  Cells with genes &lt;200 or &gt;2500 are filtered</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="gumi.html"><strong>G: UMI/Seurat Plots - Cells with genes &lt;200 or &gt;2500 are filtered</strong></a></li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="fumi.html" title="previous chapter"><strong>Sample SIGAF1: UMI Plots</strong></a></li>
-      <li>Next: <a href="gumi.html" title="next chapter"><strong>Sample SIGAG1: UMI Plots</strong></a></li>
+      <li>Previous: <a href="fcellranger.html" title="previous chapter"><strong>F: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
+      <li>Next: <a href="d2umi.html" title="next chapter"><strong>D: UMI/Seurat Plots - Cells with genes &lt;100 are filtered</strong></a></li>
   </ul></li>
 </ul>
 </div>
