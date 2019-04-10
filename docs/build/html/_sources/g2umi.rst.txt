@@ -10,6 +10,14 @@
 
   Cell Barcode Counts
 
+.. figure:: Gplot_cell_barcode_count_density.png
+   :width: 800px 
+   :align: center 
+   :height: 400px
+   :alt: Density 
+
+   Sample G density Plot
+
 
 .. figure:: g2.before.hist.png
     :width: 500px
