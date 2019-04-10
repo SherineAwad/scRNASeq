@@ -1,5 +1,5 @@
 ==============================================================================
-**Sample SIGAD1: Cell Ranger/Seurat - Cells with genes <100 are filtered**
+**D: Cell Ranger/Seurat - Cells with genes <100 are filtered**
 ==============================================================================
 
 .. ::  
@@ -26,7 +26,7 @@
 
 
 .. figure:: dCR.before.hist.png
-       :width: 500px
+    :width: 500px
     :align: center
     :height: 500px
     :alt: Before Normalization

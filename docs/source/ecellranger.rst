@@ -15,7 +15,7 @@
 
 
 
-.. figure:: dloupe.png  
+.. figure:: eloupe.png  
      :width: 400
      :height: 400px
      :alt: Cell Ranger Clusters for E
