@@ -10,6 +10,10 @@ Welcome to scRNASeq's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   dCRgeneral.rst
+   eCRgeneral.rst
+   fCRgeneral.rst
+   gCRgeneral.rst 
    dcellranger.rst  
    ecellranger.rst
    fcellranger.rst

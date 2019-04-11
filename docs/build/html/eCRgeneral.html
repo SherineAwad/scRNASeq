@@ -35,8 +35,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="F: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered" href="fcellranger.html" />
-    <link rel="prev" title="D: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered" href="dcellranger.html" /> 
+    <link rel="next" title="F: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered" href="fCRgeneral.html" />
+    <link rel="prev" title="D: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered" href="dCRgeneral.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -83,11 +83,11 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="dCRgeneral.html"><strong>D: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="eCRgeneral.html"><strong>E: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>E: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="fCRgeneral.html"><strong>F: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="gCRgeneral.html"><strong>G: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="dcellranger.html"><strong>D: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>E: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="ecellranger.html"><strong>E: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="fcellranger.html"><strong>F: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="gcellranger.html"><strong>G: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="dgeneral.html"><strong>D: UMITool based general plots before filtering</strong></a></li>
@@ -153,7 +153,7 @@
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/ecellranger.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/eCRgeneral.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -168,49 +168,21 @@
             
   <div class="section" id="e-cell-ranger-seurat-cells-with-genes-100-are-filtered">
 <h1><strong>E: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong><a class="headerlink" href="#e-cell-ranger-seurat-cells-with-genes-100-are-filtered" title="Permalink to this headline">¶</a></h1>
-<div class="align-center figure" id="id1">
-<a class="reference internal image-reference" href="_images/eCR.before.hist.png"><img alt="Before Normalization" src="_images/eCR.before.hist.png" style="width: 500px; height: 500px;" /></a>
-<p class="caption"><span class="caption-text">Before Normalization</span></p>
+<div class="figure align-center" id="id1">
+<a class="reference internal image-reference" href="_images/e.geneswith1tr.png"><img alt="Distribution of Deteced Genes" src="_images/e.geneswith1tr.png" style="width: 500px; height: 500px;" /></a>
+<p class="caption"><span class="caption-text">Detected Genes: genes that have at least one transcript in each cell</span></p>
 </div>
-<div class="align-center figure" id="id2">
-<a class="reference internal image-reference" href="_images/eCR.after.hist.png"><img alt="After Normalization" src="_images/eCR.after.hist.png" style="width: 500px; height: 500px;" /></a>
-<p class="caption"><span class="caption-text">After Normalization</span></p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/e.sumexpression.png"><img alt="Expression sum per cell" src="_images/e.sumexpression.png" style="width: 500px; height: 500px;" /></a>
 </div>
-<div class="align-center figure" id="id3">
-<a class="reference internal image-reference" href="_images/eCR.dispersion.png"><img alt="Dispersion" src="_images/eCR.dispersion.png" style="width: 400px; height: 400px;" /></a>
-<p class="caption"><span class="caption-text">Dispersion</span></p>
+<a class="reference internal image-reference" href="_images/esummary.html"><img alt="Click here to view cell ranger summary for Sample E" src="_images/esummary.html" style="width: 400px;" /></a>
+<div class="figure" id="id2">
+<a class="reference internal image-reference" href="_images/eloupe.png"><img alt="Cell Ranger Clusters for E" src="_images/eloupe.png" style="width: 400px; height: 400px;" /></a>
+<p class="caption"><span class="caption-text">Cell Ranger Clusters of Sample E</span></p>
 </div>
-<div class="align-center figure" id="id4">
-<a class="reference internal image-reference" href="_images/eCR.pca.png"><img alt="PCA for sample E" src="_images/eCR.pca.png" style="width: 600px; height: 400px;" /></a>
-<p class="caption"><span class="caption-text">PCA for sample E</span></p>
-</div>
-<div class="align-center figure" id="id5">
-<a class="reference internal image-reference" href="_images/eCR.tsne.cluster.png"><img alt="TSNE Clustering" src="_images/eCR.tsne.cluster.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">TSNE Clustering</span></p>
-</div>
-<div class="align-center figure" id="id6">
-<a class="reference internal image-reference" href="_images/eCR.heatmap1.png"><img alt="Heatmap of Sample E" src="_images/eCR.heatmap1.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">Heatmap of sample E</span></p>
-</div>
-<div class="align-center figure" id="id7">
-<a class="reference internal image-reference" href="_images/eCR.heatmap2.png"><img alt="Heatmaps of PCAs of Sample E" src="_images/eCR.heatmap2.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">Heatmaps of PCAs of sample E</span></p>
-</div>
-<div class="align-center figure" id="id8">
-<a class="reference internal image-reference" href="_images/eCR.vnplot.pca.png"><img alt="VNPlot for top PCA genes" src="_images/eCR.vnplot.pca.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">VNPlot for top PCA genes</span></p>
-</div>
-<div class="align-center figure" id="id9">
-<a class="reference internal image-reference" href="_images/eCR.featureplot.pca.png"><img alt="Feature Plot for top PCA genes" src="_images/eCR.featureplot.pca.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">Feature Plot for top PCA genes</span></p>
-</div>
-<div class="align-center figure" id="id10">
-<a class="reference internal image-reference" href="_images/eCR.vnplot.marker.png"><img alt="VNPlot for top Marker genes" src="_images/eCR.vnplot.marker.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">VNPlot for top Marker genes</span></p>
-</div>
-<div class="align-center figure" id="id11">
-<a class="reference internal image-reference" href="_images/eCR.featureplot.marker.png"><img alt="Feature Plot for top Marker genes" src="_images/eCR.featureplot.marker.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">Feature Plot for top Marker genes</span></p>
+<div class="figure" id="id3">
+<img alt="eCR.mito.png:alt:Mitocondorial" src="eCR.mito.png:alt:Mitocondorial" />
+<p class="caption"><span class="caption-text">Check Mitocondorila Genes</span></p>
 </div>
 </div>
 
@@ -222,10 +194,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="fcellranger.html" class="btn btn-neutral float-right" title="F: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="fCRgeneral.html" class="btn btn-neutral float-right" title="F: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="dcellranger.html" class="btn btn-neutral float-left" title="D: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="dCRgeneral.html" class="btn btn-neutral float-left" title="D: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
