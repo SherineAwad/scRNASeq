@@ -4,10 +4,29 @@ library(Matrix)
 
 #We analyze here the output of UMI-Tools using Seurat 
 
-raw_counts<-read.table(file=paste0("/rds/project/yhbl2/rds-yhbl2-genehunter/SM/scRNAseq/","d.counts.csv"),header=TRUE ,sep="\t", row.names =1)
- 
+mydata.data<-read.table(file=paste0("/rds/project/yhbl2/rds-yhbl2-genehunter/SM/scRNAseq/","d.counts.csv"),header=TRUE ,sep="\t", row.names =1)
 
-mydata <- CreateSeuratObject(raw.data = raw_counts,names.delim ="\t")
+
+mydata <- CreateSeuratObject(raw.data = mydata.data,names.delim ="\t")
+
+
+
+
+# check how many genes have at least one transcript in each cell
+png("d.geneswith1tr.png")
+at_least_one <- apply(mydata.data, 2, function(x) sum(x>0))
+hist(at_least_one, breaks = 100,
+     main = "Distribution of detected genes",
+     xlab = "Genes with at least one tag")
+dev.off()
+png("d.sumexpression.png")
+hist(colSums(mydata.data),
+     breaks = 100, main = "Expression sum per cell",
+     xlab = "Sum expression")
+dev.off()
+
+
+
 
 mydata <- FilterCells(object = mydata,
                     subset.names = c("nGene"),

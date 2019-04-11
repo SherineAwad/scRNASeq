@@ -2,6 +2,25 @@
 **F: UMI/Seurat -  Cells with genes <100 are filtered** 
 ================================================================================================================
 
+
+.. figure:: f.geneswith1tr.png
+   :width: 800px
+   :align: center 
+   :height: 400px
+   :alt: Distribution of Deteced Genes
+
+   Detected Genes: genes that have at least one transcript in each cell
+
+
+.. figure:: f.sumexpression.png 
+   :width: 800px
+   :align: center 
+   :height: 400px
+   :alt:  Expression sum per cell 
+
+     Sum of Expression 
+
+
 .. figure:: Fplot_cell_barcode_counts.png  
   :width: 800px
   :align: center 
