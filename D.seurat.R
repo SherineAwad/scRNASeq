@@ -11,6 +11,29 @@ mydata <- CreateSeuratObject(raw.data = mydata.data,names.delim ="\t")
 
 
 
+mito.genes <- grep(pattern = "^MT-", x = rownames(x = mydata@data), value = TRUE)
+length(mito.genes)
+
+# check out the meta data
+head(mydata@meta.data)
+
+percent.mito <- Matrix::colSums(mydata@raw.data[mito.genes, ]) / Matrix::colSums(mydata@raw.data)
+
+# add some more meta data
+mydata <- AddMetaData(object = mydata,
+                    metadata = percent.mito,
+                    col.name = "percent.mito")
+
+head(mydata@meta.data)
+
+# plot number of genes, UMIs, and % mitochondria
+png(filename ="d.mito.png",width = 600, height = 600, units = "px")
+
+VlnPlot(object = mydata,
+        features.plot = c("nGene", "nUMI", "percent.mito"),
+        nCol = 3)
+
+
 
 # check how many genes have at least one transcript in each cell
 png("d.geneswith1tr.png")

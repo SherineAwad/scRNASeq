@@ -38,6 +38,16 @@
    Sample E density Plot
 
 
+.. figure:: e.mito.png
+   :width: 600px
+   :align: center 
+   :height: 600px 
+   :alt: Mitocondorial 
+   
+   Check Mitocondorial: Cells with  high mitochondrial percentage may indicate lost of cytoplasmic RNA.
+
+
+
 .. figure:: e2.before.hist.png
     :width: 500px
     :align: center

@@ -38,6 +38,15 @@
 
    Sample F density Plot
 
+.. figure:: f.mito.png
+   :width: 600px
+   :align: center 
+   :height: 600px 
+   :alt: Mitocondorial 
+   
+   Check Mitocondorial: Cells with  high mitochondrial percentage may indicate lost of cytoplasmic RNA.
+
+
 
 
 .. figure:: f2.before.hist.png
