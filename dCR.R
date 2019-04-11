@@ -2,19 +2,19 @@ library(Seurat)
 library(dplyr)
 library(Matrix)
 
-#We analyze here the output of UMI-Tools using Seurat 
+#Here we analayze Cell Ranger out put in Seurat 
 
-raw_counts<-read.table(file=paste0("/rds/project/yhbl2/rds-yhbl2-genehunter/SM/scRNAseq/","d.counts.csv"),header=TRUE ,sep="\t", row.names =1)
- 
 
-mydata <- CreateSeuratObject(raw.data = raw_counts,names.delim ="\t")
+mydata.data <- Read10X(data.dir = "Dout/outs/filtered_feature_bc_matrix") 
+# Initialize the Seurat object with the raw (non-normalized data).
+mydata <- CreateSeuratObject(raw.data = mydata.data, project = "Cell Ranger/Seurat", min.cells = 3, min.features = 200)
 
 mydata <- FilterCells(object = mydata,
                     subset.names = c("nGene"),
-                    low.thresholds = c(100), #We can change to 100 or -Inf
-                    high.thresholds = c(Inf)) #We can change to Inf
+                    low.thresholds = c(100),
+                    high.thresholds = c(Inf))
 
-png("d.before.hist.png")
+png("dCR.before.hist.png")
 hist(colSums(mydata@data),
      breaks = 100,
      main = "Total expression before normalisation",
@@ -26,7 +26,7 @@ mydata <- NormalizeData(object = mydata,
                       scale.factor = 1e4)
 
 
-png("d.after.hist.png")
+png("dCR.after.hist.png")
 hist(colSums(mydata@data),
      breaks = 100,
      main = "Total expression after normalisation",
@@ -44,14 +44,14 @@ mydata <- ScaleData(object = mydata,vars.to.regress = c("nUMI") )
 
 mydata <- RunPCA(object = mydata,pc.genes = mydata@var.genes,do.print = TRUE,pcs.print = 1:5,genes.print = 5)
 
-png("d.pca.png")
+png("dCR.pca.png")
 
 PCAPlot(object = mydata, dim.1 = 1, dim.2 = 2)
 
 dev.off()
 
 
-png("d.dispersion.png")
+png("dCR.dispersion.png")
 mydata  <- FindVariableGenes(object = mydata,
                           mean.function = ExpMean,
                           dispersion.function = LogVMR,
@@ -60,7 +60,7 @@ mydata  <- FindVariableGenes(object = mydata,
                           y.cutoff = 0.5)
 dev.off ()
 
-png("d.heatmap1.png") 
+png("dCR.heatmap1.png") 
 
 PCHeatmap(object = mydata,
           pc.use = 1,
@@ -69,8 +69,7 @@ PCHeatmap(object = mydata,
           label.columns = FALSE,size.x.use =6, size.y.use =6)
 dev.off() 
 
-
-png("d.heatmap2.png") 
+png("dCR.heatmap2.png") 
 PCHeatmap(object = mydata,
           pc.use = 1:12,
           cells.use = 500,
@@ -88,7 +87,7 @@ mydata <- FindClusters(object = mydata,
 PrintFindClustersParams(object = mydata)
 
 
-png("d.tsne.cluster.png")
+png("dCR.tsne.cluster.png")
 
 mydata <- RunTSNE(object = mydata,
                 dims.use = 1:10,
@@ -101,19 +100,20 @@ dev.off()
 head(PCTopCells(object = mydata, pc.use = 1, num.cells = NULL, do.balanced = FALSE))
 head(PCTopGenes(object =mydata, pc.use = 1, num.genes = 30, use.full = FALSE,do.balanced = FALSE) )
 
-#We select the top PCA genes listed above and plot in FeaturePlot and VNPlot
-png("d.featureplot.pca.png")
+#Plot top PCA genes selected above in feature plot and vn plot 
+
+png("dCR.featureplot.pca.png")
 FeaturePlot(object = mydata,
-            features.plot = c("RTN1","GAP43","DCX","INA","NSG1","SCG5"),
+            features.plot = c("RTN1","GAP43","DCX","INA","NSG1","MLLT11"),
             cols.use = c("grey", "blue"),
             reduction.use = "tsne")
 
 dev.off()
 
 
-png("d.vnplot.pca.png") 
+png("dCR.vnplot.pca.png") 
 VlnPlot(object = mydata,
-        features.plot = c("RTN1","GAP43","DCX","INA","NSG1","SCG5"), 
+        features.plot = c("RTN1","GAP43","DCX","INA","NSG1","MLLT11"), 
         use.raw = TRUE,
         y.log = TRUE)
 
@@ -123,19 +123,18 @@ dev.off()
 #Find all markers
 head(mydata.markers <- FindAllMarkers(object = mydata,only.pos = TRUE,min.pct = 0.25,thresh.use = 0.25))
 
-#We select the top marker genes listed above and plot in FeaturePlot and VNPlot
-
-png("d.featureplot.marker.png")
-FeaturePlot(object = mydata,
-            features.plot = c("VIM","SPARCL1","HES1","GPC3","SLC1A3","FZD5"),
+#Plot top genes marjkers selected above in feature plot and vn plot 
+png("dCR.featureplot.marker.png")
+FeaturePlot(object = mydata, 
+            features.plot = c("VIM","SPARCL1","GPC3","SLC1A3","HES1","SPARC"),
             cols.use = c("grey", "blue"),
             reduction.use = "tsne")
 
 dev.off()
 
-png("d.vnplot.marker.png")
+png("dCR.vnplot.marker.png")
 VlnPlot(object = mydata,
-        features.plot =  c("VIM","SPARCL1","HES1","GPC3","SLC1A3","FZD5"),
+        features.plot = c("VIM","SPARCL1","GPC3","SLC1A3","HES1","SPARC"), 
         use.raw = TRUE,
         y.log = TRUE)
 
