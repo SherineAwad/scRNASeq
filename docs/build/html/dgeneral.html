@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>F: UMI/Seurat - Cells with genes &lt;200 or &gt;2500 are filtered &mdash; scRNASeq  documentation</title>
+  <title>**D: UMITool based general plots before filtering ** &mdash; scRNASeq  documentation</title>
   
 
   
@@ -35,8 +35,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="G: UMI/Seurat - Cells with genes &lt;200 or &gt;2500 are filtered" href="gumi.html" />
-    <link rel="prev" title="E: UMI/Seurat - Cells with genes &lt;200 or &gt;2500 are filtered" href="eumi.html" /> 
+    <link rel="next" title="**E: UMITool based general plots before filtering **" href="egeneral.html" />
+    <link rel="prev" title="G: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered" href="gcellranger.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -86,7 +86,7 @@
 <li class="toctree-l1"><a class="reference internal" href="ecellranger.html"><strong>E: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="fcellranger.html"><strong>F: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="gcellranger.html"><strong>G: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="dgeneral.html">**D: UMITool based general plots before filtering **</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">**D: UMITool based general plots before filtering **</a></li>
 <li class="toctree-l1"><a class="reference internal" href="egeneral.html">**E: UMITool based general plots before filtering **</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fgeneral.html">**F: UMITool based general plots before filtering **</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ggeneral.html"><strong>G: UMI/Seurat - Cells with genes &lt;200 or &gt;2500 are filtered</strong></a></li>
@@ -96,7 +96,7 @@
 <li class="toctree-l1"><a class="reference internal" href="g2umi.html"><strong>G: UMI/Seurat - Cells with genes &lt;100 are filtered</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="dumi.html"><strong>D: UMI/Seurat - Cells with genes &lt;200 or &gt;2500 are filtered</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="eumi.html"><strong>E: UMI/Seurat - Cells with genes &lt;200 or &gt;2500 are filtered</strong></a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>F: UMI/Seurat -  Cells with genes &lt;200 or &gt;2500 are filtered</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="fumi.html"><strong>F: UMI/Seurat -  Cells with genes &lt;200 or &gt;2500 are filtered</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="gumi.html"><strong>G: UMI/Seurat - Cells with genes &lt;200 or &gt;2500 are filtered</strong></a></li>
 </ul>
 
@@ -143,13 +143,13 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li><strong>F: UMI/Seurat -  Cells with genes &lt;200 or &gt;2500 are filtered</strong></li>
+      <li>**D: UMITool based general plots before filtering **</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/fumi.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/dgeneral.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -162,51 +162,22 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="f-umi-seurat-cells-with-genes-200-or-2500-are-filtered">
-<h1><strong>F: UMI/Seurat -  Cells with genes &lt;200 or &gt;2500 are filtered</strong><a class="headerlink" href="#f-umi-seurat-cells-with-genes-200-or-2500-are-filtered" title="Permalink to this headline">¶</a></h1>
-<div class="align-center figure" id="id1">
-<a class="reference internal image-reference" href="_images/f.before.hist.png"><img alt="Before Normalization" src="_images/f.before.hist.png" style="width: 500px; height: 500px;" /></a>
-<p class="caption"><span class="caption-text">Before Normalization</span></p>
+  <div class="section" id="d-umitool-based-general-plots-before-filtering">
+<h1><a href="#id1"><span class="problematic" id="id2">**</span></a>D: UMITool based general plots before filtering **<a class="headerlink" href="#d-umitool-based-general-plots-before-filtering" title="Permalink to this headline">¶</a></h1>
+<div class="figure align-center" id="id3">
+<a class="reference internal image-reference" href="_images/d.geneswith1tr.png"><img alt="Distribution of Deteced Genes" src="_images/d.geneswith1tr.png" style="width: 500px; height: 500px;" /></a>
+<p class="caption"><span class="caption-text">Detected Genes: genes that have at least one transcript in each cell</span></p>
 </div>
-<div class="align-center figure" id="id2">
-<a class="reference internal image-reference" href="_images/f.after.hist.png"><img alt="After Normalization" src="_images/f.after.hist.png" style="width: 500px; height: 500px;" /></a>
-<p class="caption"><span class="caption-text">After Normalization</span></p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/d.sumexpression.png"><img alt="Expression sum per cell" src="_images/d.sumexpression.png" style="width: 500px; height: 500px;" /></a>
 </div>
-<div class="align-center figure" id="id3">
-<a class="reference internal image-reference" href="_images/f.dispersion.png"><img alt="Dispersion" src="_images/f.dispersion.png" style="width: 400px; height: 400px;" /></a>
-<p class="caption"><span class="caption-text">Dispersion</span></p>
+<div class="figure align-center" id="id4">
+<a class="reference internal image-reference" href="_images/Dplot_cell_barcode_counts.png"><img alt="Cell Barcode Counts" src="_images/Dplot_cell_barcode_counts.png" style="width: 800px; height: 400px;" /></a>
+<p class="caption"><span class="caption-text">Cell Barcode Counts</span></p>
 </div>
-<div class="align-center figure" id="id4">
-<a class="reference internal image-reference" href="_images/f.pca.png"><img alt="PCA for sample F" src="_images/f.pca.png" style="width: 600px; height: 400px;" /></a>
-<p class="caption"><span class="caption-text">PCA for sample F</span></p>
-</div>
-<div class="align-center figure" id="id5">
-<a class="reference internal image-reference" href="_images/f.tsne.cluster.png"><img alt="TSNE Clustering" src="_images/f.tsne.cluster.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">TSNE Clustering</span></p>
-</div>
-<div class="align-center figure" id="id6">
-<a class="reference internal image-reference" href="_images/f.heatmap1.png"><img alt="Heatmap of Sample F" src="_images/f.heatmap1.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">Heatmap of sample F</span></p>
-</div>
-<div class="align-center figure" id="id7">
-<a class="reference internal image-reference" href="_images/f.heatmap2.png"><img alt="Heatmaps of PCAs of Sample F" src="_images/f.heatmap2.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">Heatmaps of PCAs of sample F</span></p>
-</div>
-<div class="align-center figure" id="id8">
-<a class="reference internal image-reference" href="_images/f.vnplot.pca.png"><img alt="VNPlot for top PCA genes" src="_images/f.vnplot.pca.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">VNPlot for top PCA genes</span></p>
-</div>
-<div class="align-center figure" id="id9">
-<a class="reference internal image-reference" href="_images/f.featureplot.pca.png"><img alt="Feature Plot for top PCA genes" src="_images/f.featureplot.pca.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">Feature Plot for top PCA genes</span></p>
-</div>
-<div class="align-center figure" id="id10">
-<a class="reference internal image-reference" href="_images/f.vnplot.marker.png"><img alt="VNPlot for top Marker genes" src="_images/f.vnplot.marker.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">VNPlot for top Marker genes</span></p>
-</div>
-<div class="align-center figure" id="id11">
-<a class="reference internal image-reference" href="_images/f.featureplot.marker.png"><img alt="Feature Plot for top Marker genes" src="_images/f.featureplot.marker.png" style="width: 600px; height: 600px;" /></a>
-<p class="caption"><span class="caption-text">Feature Plot for top Marker genes</span></p>
+<div class="figure align-center" id="id5">
+<a class="reference internal image-reference" href="_images/Dplot_cell_barcode_count_density.png"><img alt="Density" src="_images/Dplot_cell_barcode_count_density.png" style="width: 800px; height: 400px;" /></a>
+<p class="caption"><span class="caption-text">Sample D density Plot</span></p>
 </div>
 </div>
 
@@ -218,10 +189,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="gumi.html" class="btn btn-neutral float-right" title="G: UMI/Seurat - Cells with genes &lt;200 or &gt;2500 are filtered" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="egeneral.html" class="btn btn-neutral float-right" title="**E: UMITool based general plots before filtering **" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="eumi.html" class="btn btn-neutral float-left" title="E: UMI/Seurat - Cells with genes &lt;200 or &gt;2500 are filtered" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="gcellranger.html" class="btn btn-neutral float-left" title="G: Cell Ranger/Seurat - Cells with genes &lt;100 are filtered" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

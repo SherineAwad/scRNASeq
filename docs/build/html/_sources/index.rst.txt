@@ -14,6 +14,10 @@ Welcome to scRNASeq's documentation!
    ecellranger.rst
    fcellranger.rst
    gcellranger.rst
+   dgeneral.rst
+   egeneral.rst 
+   fgeneral.rst 
+   ggeneral.rst
    d2umi.rst
    e2umi.rst
    f2umi.rst
