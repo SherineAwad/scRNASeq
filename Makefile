@@ -51,11 +51,11 @@ Gout/outs/cloupe.cloupe: G/G_S1_L001_R2_001.fastq.gz
 
 #---------------------------------UMI Tools-----------------------------------------------------------------
 #-----------Sample D
-d2.whitelist.txt: D.R1.L002.fastq.gz 
+d.whitelist.txt: D.R1.L002.fastq.gz 
 	umi_tools whitelist --stdin ${WHERE}/D.R1.L002.fastq.gz \
 	--bc-pattern=CCCCCCCCCCCCCCCCNNNNNNNNNN \
 	--plot-prefix Dplot \
-	--log2stderr > d2.whitelist.txt
+	--log2stderr > d.whitelist.txt
                                                                                  
 d.R2.extracted.fastq.gz: d.whitelist.txt 
 	umi_tools extract --bc-pattern=CCCCCCCCCCCCCCCCNNNNNNNNNN \
@@ -78,7 +78,7 @@ d.gene_assigned: d.Aligned.sortedByCoord.out.bam
 	samtools index d.assigned_sorted.bam
               
 d.counts.tsv.gz: d.assigned_sorted.bam
-	umi_tools count --per-gene --gene-tag=XT --assigned-status-tag=XS --per-cell --paired --wide-format-cell-counts -I d.assigned_sorted.bam -S dp.counts.tsv.gz
+	umi_tools count --per-gene --gene-tag=XT --assigned-status-tag=XS --per-cell --paired --wide-format-cell-counts -I d.assigned_sorted.bam -S d.counts.tsv.gz
 
 
 
@@ -110,7 +110,7 @@ e.gene_assigned: e.Aligned.sortedByCoord.out.bam
 	samtools index e.assigned_sorted.bam
 
 e.counts.tsv.gz: e.assigned_sorted.bam 
-	umi_tools count --per-gene --gene-tag=XT --assigned-status-tag=XS --per-cell --paired --wide-format-cell-counts -I e.assigned_sorted.bam -S ep.counts.tsv.gz
+	umi_tools count --per-gene --gene-tag=XT --assigned-status-tag=XS --per-cell --paired --wide-format-cell-counts -I e.assigned_sorted.bam -S e.counts.tsv.gz
 
 
 #--------------Sample F 
@@ -140,7 +140,7 @@ f.gene_assigned: f.Aligned.sortedByCoord.out.bam
 	samtools index f.assigned_sorted.bam
 
 f.counts.tsv.gz: f.assigned_sorted.bam
-	umi_tools count --per-gene --gene-tag=XT --assigned-status-tag=XS --per-cell --paired --wide-format-cell-counts -I f.assigned_sorted.bam -S fp.counts.tsv.gz
+	umi_tools count --per-gene --gene-tag=XT --assigned-status-tag=XS --per-cell --paired --wide-format-cell-counts -I f.assigned_sorted.bam -S f.counts.tsv.gz
 
 
 
@@ -171,7 +171,7 @@ g.gene_assigned: g.Aligned.sortedByCoord.out.bam
 	samtools index g.assigned_sorted.bam
 
 g.counts.tsv.gz: g.assigned_sorted.bam 
-	umi_tools count --per-gene --gene-tag=XT --assigned-status-tag=XS --per-cell --paired --wide-format-cell-counts  -I g.assigned_sorted.bam -S gp.counts.tsv.gz
+	umi_tools count --per-gene --gene-tag=XT --assigned-status-tag=XS --per-cell --paired --wide-format-cell-counts  -I g.assigned_sorted.bam -S g.counts.tsv.gz
 
 
 
