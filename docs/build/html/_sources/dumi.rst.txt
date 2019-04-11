@@ -43,6 +43,12 @@
    Sample D density Plot 
 
 
+
+.. line-block::
+
+     We start filtering cells here: Cells with genes <200 or >2500 are filtered 
+
+
 .. figure:: d.before.hist.png
     :width: 500px
     :align: center
