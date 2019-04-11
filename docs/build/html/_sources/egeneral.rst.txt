@@ -42,9 +42,9 @@
 
 
 .. figure::  e.mito.png
-   :width: 600px 
+   :width: 400px 
    :align: center 
-   :height: 6000px
+   :height: 4000px
    :alt: Mitocondorial genes 
 
 

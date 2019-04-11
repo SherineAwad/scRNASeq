@@ -1,5 +1,5 @@
 =======================================================================================================================
-**G: UMI/Seurat - Cells with genes <200 or >2500 are filtered**
+**G: UMITool based general plots before filtering**
 =======================================================================================================================
 
 
@@ -43,9 +43,9 @@
 
 
 .. figure::  g.mito.png
-   :width: 600px 
+   :width: 400px 
    :align: center 
-   :height: 6000px
+   :height: 4000px
    :alt: Mitocondorial genes 
 
 
