@@ -1,5 +1,5 @@
 ================================================================================================================
-**F: UMITool based general plots before filtering **
+**F: UMITool based general plots before filtering**
 ================================================================================================================
 
 
@@ -39,4 +39,12 @@
 
    Sample F density Plot
 
+.. figure::  f.mito.png
+   :width: 600px 
+   :align: center 
+   :height: 6000px
+   :alt: Mitocondorial genes 
+
+
+   Check Mitocondorila Genes 
    

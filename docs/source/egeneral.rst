@@ -1,5 +1,5 @@
 =========================================================================================================================
-**E: UMITool based general plots before filtering **
+**E: UMITool based general plots before filtering**
 =========================================================================================================================
 
 
@@ -40,4 +40,13 @@
 
    Sample E density Plot
 
+
+.. figure::  e.mito.png
+   :width: 600px 
+   :align: center 
+   :height: 6000px
+   :alt: Mitocondorial genes 
+
+
+   Check Mitocondorila Genes 
    
