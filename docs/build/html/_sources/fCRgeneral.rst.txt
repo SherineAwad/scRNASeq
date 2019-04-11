@@ -1,5 +1,5 @@
 ==============================================================================
-**F: Cell Ranger/Seurat - Cells with genes <100 are filtered**
+**F: Cell Ranger based general plots before filtering**
 ==============================================================================
 
 .. ::  
@@ -46,7 +46,9 @@
    
 
 .. figure:: fCR.mito.png
-      :alt: Mitocondorial 
+
+     :align: center 
+     :alt: Mitocondorial 
 
    Check Mitocondorila Genes
 

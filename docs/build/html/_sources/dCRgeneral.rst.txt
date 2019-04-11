@@ -1,5 +1,5 @@
 ==============================================================================
-**D: Cell Ranger/Seurat - Cells with genes <100 are filtered**
+**D: Cell Ranger based general plots before filtering**
 ==============================================================================
 
 .. ::  
@@ -46,7 +46,9 @@
 
 
 .. figure:: dCR.mito.png
-   :alt: Mitocondorial 
+
+     :align: center 
+     :alt: Mitocondorial 
 
    Check Mitocondorila Genes
 
