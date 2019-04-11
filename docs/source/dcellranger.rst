@@ -4,6 +4,26 @@
 
 .. ::  
 
+
+
+.. figure:: dCR.geneswith1tr.png
+   :width: 500px
+   :align: center 
+   :height: 500px
+   :alt: Distribution of Deteced Genes
+
+   Detected Genes: genes that have at least one transcript in each cell
+
+
+.. figure:: dCR.sumexpression.png 
+   :width: 500px
+   :align: center 
+   :height: 500px
+   :alt:  Expression sum per cell 
+
+     Sum of Expression 
+
+
   
 
 

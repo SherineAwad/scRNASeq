@@ -4,18 +4,18 @@
 
 
 .. figure:: g.geneswith1tr.png
-   :width: 800px
+   :width: 500px
    :align: center 
-   :height: 400px
+   :height: 500px
    :alt: Distribution of Deteced Genes
 
    Detected Genes: genes that have at least one transcript in each cell
 
 
 .. figure:: g.sumexpression.png 
-   :width: 800px
+   :width: 500px
    :align: center 
-   :height: 400px
+   :height: 500px
    :alt:  Expression sum per cell 
 
      Sum of Expression 

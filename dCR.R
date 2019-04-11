@@ -5,9 +5,27 @@ library(Matrix)
 #Here we analayze Cell Ranger out put in Seurat 
 
 
-mydata.data <- Read10X(data.dir = "Dout/outs/filtered_feature_bc_matrix") 
+
+mydata.data <- Read10X(data.dir = "Gout/outs/filtered_feature_bc_matrix")
 # Initialize the Seurat object with the raw (non-normalized data).
 mydata <- CreateSeuratObject(raw.data = mydata.data, project = "Cell Ranger/Seurat", min.cells = 3, min.features = 200)
+
+
+
+# check how many genes have at least one transcript in each cell
+png("gCR.geneswith1tr.png")
+at_least_one <- apply(mydata.data, 2, function(x) sum(x>0))
+hist(at_least_one, breaks = 100,
+     main = "Distribution of detected genes",
+     xlab = "Genes with at least one tag")
+dev.off()
+png("gCR.sumexpression.png")
+hist(colSums(mydata.data),
+     breaks = 100, main = "Expression sum per cell",
+     xlab = "Sum expression")
+dev.off()
+
+
 
 mydata <- FilterCells(object = mydata,
                     subset.names = c("nGene"),
