@@ -40,9 +40,7 @@
    Sample F density Plot
 
 .. figure::  f.mito.png
-   :width: 400px 
    :align: center 
-   :height: 4000px
    :alt: Mitocondorial genes 
 
 
