@@ -44,6 +44,12 @@
      Cell Ranger Clusters of Sample D
 
 
+.. topic:: Filtering starts below  
+
+     We start filtering cells here: Cells with genes <100 are filtered 
+
+
+
 
 .. figure:: dCR.before.hist.png
     :width: 500px

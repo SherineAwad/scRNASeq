@@ -47,6 +47,10 @@
    Check Mitocondorial: Cells with  high mitochondrial percentage may indicate lost of cytoplasmic RNA.
 
 
+.. topic:: Filtering starts below  
+
+     We start filtering cells here: Cells with genes <100 are filtered 
+
 
 
 .. figure:: f2.before.hist.png

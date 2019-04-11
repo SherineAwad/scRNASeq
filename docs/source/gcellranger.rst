@@ -42,6 +42,12 @@
      Cell Ranger Clusters of Sample G
 
 
+.. topic:: Filtering starts below  
+
+     We start filtering cells here: Cells with genes <100 are filtered 
+
+
+
 
 .. figure:: gCR.before.hist.png
     :width: 500px

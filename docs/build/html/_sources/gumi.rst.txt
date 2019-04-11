@@ -42,6 +42,11 @@
    Sample G density Plot
 
 
+.. topic:: Filtering starts below  
+
+     We start filtering cells here: Cells with genes <200 or >2500 are filtered 
+
+
 .. figure:: g.before.hist.png
     :width: 500px
     :align: center

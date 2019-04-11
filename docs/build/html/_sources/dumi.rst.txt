@@ -44,7 +44,7 @@
 
 
 
-.. line-block::
+.. topic:: Filtering starts below  
 
      We start filtering cells here: Cells with genes <200 or >2500 are filtered 
 

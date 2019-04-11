@@ -41,6 +41,12 @@
      Cell Ranger Clusters of Sample E
 
 
+.. topic:: Filtering starts below  
+
+     We start filtering cells here: Cells with genes <100 are filtered 
+
+
+
 
 .. figure:: eCR.before.hist.png
     :width: 500px

@@ -43,6 +43,13 @@
      Cell Ranger Clusters of Sample F
 
 
+.. topic:: Filtering starts below  
+
+     We start filtering cells here: Cells with genes <100 are filtered 
+
+
+
+
 
 .. figure:: fCR.before.hist.png
     :width: 500px
