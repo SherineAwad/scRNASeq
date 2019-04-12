@@ -3,7 +3,7 @@
 ================================================================================================================
 
 
-.. figure:: f2.before.hist.png
+.. figure:: f100.before.hist.png
     :width: 500px
     :align: center
     :height: 500px
@@ -15,7 +15,7 @@
 
 
 
-.. figure:: f2.after.hist.png
+.. figure:: f100.after.hist.png
     :width: 500px
     :align: center
     :height: 500px
@@ -25,7 +25,7 @@
     After Normalization 
 
 
-.. figure:: f2.dispersion.png 
+.. figure:: f100.dispersion.png 
     :width: 400px
     :align: center
     :height: 400px
@@ -34,7 +34,7 @@
 
     Dispersion
 
-.. figure:: f2.pca.png 
+.. figure:: f100.pca.png 
    :width: 600px 
    :align: center 
    :height: 400px 
@@ -43,7 +43,7 @@
   
    PCA for sample F
 
-.. figure:: f2.tsne.cluster.png
+.. figure:: f100.tsne.cluster.png
    :width: 600px 
    :align: center 
    :height: 600px 
@@ -52,7 +52,7 @@
 
    TSNE Clustering 
 
-.. figure:: f2.heatmap1.png 
+.. figure:: f100.heatmap1.png 
    :width: 600px
    :align: center 
    :height: 600px 
@@ -61,7 +61,7 @@
 
    Heatmap of sample F
 
-.. figure:: f2.heatmap2.png 
+.. figure:: f100.heatmap2.png 
    :width: 600px
    :align: center 
    :height: 600px 
@@ -70,7 +70,7 @@
  
    Heatmaps of PCAs of sample F
 
-.. figure:: f2.vnplot.pca.png  
+.. figure:: f100.vnplot.pca.png  
    :width: 600px
    :align: center
    :height: 600px
@@ -79,7 +79,7 @@
   
    VNPlot for top PCA genes 
 
-.. figure:: f2.featureplot.pca.png
+.. figure:: f100.featureplot.pca.png
    :width: 600px 
    :align: center 
    :height: 600px 
@@ -88,7 +88,7 @@
 
    Feature Plot for top PCA genes 
 
-.. figure:: f2.vnplot.marker.png 
+.. figure:: f100.vnplot.marker.png 
    :width: 600px 
    :align: center 
    :height: 600px 
@@ -98,7 +98,7 @@
    VNPlot for top Marker genes 
 
 
-.. figure:: f2.featureplot.marker.png
+.. figure:: f100.featureplot.marker.png
    :width: 600px 
    :align: center 
    :height: 600px
