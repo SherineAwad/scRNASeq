@@ -16,9 +16,6 @@
 
     Before Normalization 
 
-
-
-
 .. figure:: eCR.after.hist.png
     :width: 500px
     :align: center

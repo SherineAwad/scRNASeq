@@ -6,7 +6,6 @@
 
 
 
-
 .. figure:: fCR.before.hist.png
     :width: 500px
     :align: center

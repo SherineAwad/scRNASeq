@@ -5,7 +5,7 @@
 .. ::  
 
   
-.. figure:: e.geneswith1tr.png
+.. figure:: eCR.geneswith1tr.png
    :width: 500px
    :align: center 
    :height: 500px
@@ -14,7 +14,7 @@
    Detected Genes: genes that have at least one transcript in each cell
 
 
-.. figure:: e.sumexpression.png 
+.. figure:: eCR.sumexpression.png 
    :width: 500px
    :align: center 
    :height: 500px

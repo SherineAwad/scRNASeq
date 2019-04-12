@@ -6,7 +6,7 @@
 
   
 
-.. figure:: g.geneswith1tr.png
+.. figure:: gCR.geneswith1tr.png
    :width: 500px
    :align: center 
    :height: 500px
@@ -15,7 +15,7 @@
    Detected Genes: genes that have at least one transcript in each cell
 
 
-.. figure:: g.sumexpression.png 
+.. figure:: gCR.sumexpression.png 
    :width: 500px
    :align: center 
    :height: 500px
@@ -24,13 +24,9 @@
      Sum of Expression 
 
 
-
-
 .. image:: gsummary.html  
   :width: 400
   :alt: Click here to view cell ranger summary for Sample G 
-
-
 
 
 .. figure:: gloupe.png  
@@ -42,8 +38,6 @@
      Cell Ranger Clusters of Sample G
 
 
-  
-
 .. figure:: gCR.mito.png
 
      :align: center 
@@ -53,6 +47,4 @@
      Check Mitocondorila Genes
 
  
-
-
 

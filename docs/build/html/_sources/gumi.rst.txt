@@ -13,8 +13,6 @@
     Before Normalization 
 
 
-
-
 .. figure:: g.after.hist.png
     :width: 500px
     :align: center
