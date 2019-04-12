@@ -11,7 +11,6 @@
    :height: 500px
    :alt: Distribution of Deteced Genes
 
-   Detected Genes: genes that have at least one transcript in each cell
 
 
 .. figure:: eCR.sumexpression.png 
@@ -20,7 +19,6 @@
    :height: 500px
    :alt:  Expression sum per cell 
 
-     Sum of Expression 
 
 
 
@@ -38,18 +36,15 @@
      :alt: Cell Ranger Clusters for E
      
 
-     Cell Ranger Clusters of Sample E
 
 
 
 
 .. figure:: eCR.mito.png
-
+     :width: 400px
      :align: center 
      :alt: Mitocondorial 
 
-
-   Check Mitocondorila Genes
 
 
 

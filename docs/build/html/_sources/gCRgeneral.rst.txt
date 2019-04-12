@@ -12,7 +12,6 @@
    :height: 500px
    :alt: Distribution of Deteced Genes
 
-   Detected Genes: genes that have at least one transcript in each cell
 
 
 .. figure:: gCR.sumexpression.png 
@@ -21,7 +20,6 @@
    :height: 500px
    :alt:  Expression sum per cell 
 
-     Sum of Expression 
 
 
 .. image:: gsummary.html  
@@ -39,12 +37,9 @@
 
 
 .. figure:: gCR.mito.png
-
+     :width: 400px
      :align: center 
      :alt: Mitocondorial 
-
-
-     Check Mitocondorila Genes
 
  
 

@@ -12,7 +12,6 @@
    :height: 500px
    :alt: Distribution of Deteced Genes
 
-   Detected Genes: genes that have at least one transcript in each cell
 
 
 .. figure:: f100.sumexpression.png 
@@ -21,7 +20,6 @@
    :height: 500px
    :alt:  Expression sum per cell 
 
-     Sum of Expression 
 
 
 .. figure:: Fplot_cell_barcode_counts.png  
@@ -30,8 +28,6 @@
   :height: 400px
   :alt: Cell Barcode Counts
 
-  Cell Barcode Counts
-
 
 .. figure:: Fplot_cell_barcode_count_density.png
    :width: 800px 
@@ -39,12 +35,9 @@
    :height: 400px
    :alt: Density 
 
-   Sample F density Plot
 
 .. figure::  f100.mito.png
    :align: center 
    :alt: Mitocondorial genes 
 
 
-   Check Mitocondorila Genes 
-   

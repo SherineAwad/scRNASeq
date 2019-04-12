@@ -4,13 +4,13 @@
 
 
 #Althoug no filtering but their run from d100 is more reviewed and they are run before the filtering step 
+
 .. figure:: d100.geneswith1tr.png
    :width: 500px
    :align: center 
    :height: 500px
    :alt: Distribution of Deteced Genes
 
-   Detected Genes: genes that have at least one transcript in each cell
 
 
 .. figure:: d100.sumexpression.png 
@@ -19,7 +19,6 @@
    :height: 500px
    :alt:  Expression sum per cell 
 
-     Sum of Expression 
 
 
 
@@ -30,7 +29,6 @@
   :height: 400px
   :alt: Cell Barcode Counts
 
-  Cell Barcode Counts
 
 
 
@@ -40,7 +38,6 @@
    :height: 400px
    :alt: Density 
 
-   Sample D density Plot 
 
 
 .. figure::  d100.mito.png
@@ -48,4 +45,3 @@
    :alt: Mitocondorial genes 
 
 
-   Check Mitocondorila Genes 

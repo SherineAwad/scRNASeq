@@ -12,7 +12,6 @@
    :height: 500px
    :alt: Distribution of Deteced Genes
 
-   Detected Genes: genes that have at least one transcript in each cell
 
 
 .. figure:: fCR.sumexpression.png 
@@ -21,7 +20,6 @@
    :height: 500px
    :alt:  Expression sum per cell 
 
-     Sum of Expression 
 
   
 
@@ -40,18 +38,15 @@
      :alt: Cell Ranger Clusters for F
      
 
-     Cell Ranger Clusters of Sample F
 
 
    
 
 .. figure:: fCR.mito.png
-
+     :width: 400px
      :align: center 
      :alt: Mitocondorial 
 
-
-     Check Mitocondorila Genes
 
 
 

@@ -12,7 +12,6 @@
    :height: 500px
    :alt: Distribution of Deteced Genes
 
-   Detected Genes: genes that have at least one transcript in each cell
 
 
 .. figure:: dCR.sumexpression.png 
@@ -21,7 +20,6 @@
    :height: 500px
    :alt:  Expression sum per cell 
 
-     Sum of Expression 
 
 
 
@@ -33,20 +31,14 @@
 
 
 .. figure:: dloupe.png  
-     :width: 400
+     :width: 400px
      :height: 400px
      :alt: Cell Ranger Clusters for D  
-     
-
-     Cell Ranger Clusters of Sample D
-
-
 
 .. figure:: dCR.mito.png
-
+     :width: 400px
      :align: center 
      :alt: Mitocondorial 
     
  
-  Check Mitocondorila Genes
 
