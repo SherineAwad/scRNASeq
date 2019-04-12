@@ -3,8 +3,8 @@
 =========================================================================================================================
 
 
-
-.. figure:: d.geneswith1tr.png
+#Althoug no filtering but their run from d100 is more reviewed and they are run before the filtering step 
+.. figure:: d100.geneswith1tr.png
    :width: 500px
    :align: center 
    :height: 500px
@@ -13,7 +13,7 @@
    Detected Genes: genes that have at least one transcript in each cell
 
 
-.. figure:: d.sumexpression.png 
+.. figure:: d100.sumexpression.png 
    :width: 500px
    :align: center 
    :height: 500px
@@ -43,7 +43,7 @@
    Sample D density Plot 
 
 
-.. figure::  d.mito.png
+.. figure::  d100.mito.png
    :align: center 
    :alt: Mitocondorial genes 
 

@@ -3,8 +3,9 @@
 =======================================================================================================================
 
 
+#Althoug no filtering but their run from g100 is more reviewed and they are run before the filtering step
 
-.. figure:: g.geneswith1tr.png
+.. figure:: g100.geneswith1tr.png
    :width: 500px
    :align: center 
    :height: 500px
@@ -13,7 +14,7 @@
    Detected Genes: genes that have at least one transcript in each cell
 
 
-.. figure:: g.sumexpression.png 
+.. figure:: g100.sumexpression.png 
    :width: 500px
    :align: center 
    :height: 500px
@@ -42,7 +43,7 @@
    Sample G density Plot
 
 
-.. figure::  g.mito.png
+.. figure::  g100.mito.png
    :align: center 
    :alt: Mitocondorial genes 
 

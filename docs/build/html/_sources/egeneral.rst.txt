@@ -3,8 +3,9 @@
 =========================================================================================================================
 
 
+#Althoug no filtering but their run from e100 is more reviewed and they are run before the filtering step
 
-.. figure:: e.geneswith1tr.png
+.. figure:: e100.geneswith1tr.png
    :width: 500px
    :align: center 
    :height: 500px
@@ -13,7 +14,7 @@
    Detected Genes: genes that have at least one transcript in each cell
 
 
-.. figure:: e.sumexpression.png 
+.. figure:: e100.sumexpression.png 
    :width: 500px
    :align: center 
    :height: 500px
@@ -41,7 +42,7 @@
    Sample E density Plot
 
 
-.. figure::  e.mito.png
+.. figure::  e100.mito.png
    :align: center 
    :alt: Mitocondorial genes 
 
