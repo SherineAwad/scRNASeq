@@ -24,9 +24,6 @@
      Sum of Expression 
 
 
-  
-
-
 
 .. image:: dsummary.html  
   :width: 400
